@@ -42,6 +42,52 @@ export default function Page() {
                 <i data-lucide="chevron-down"></i>
             </div>
         </div>
+      <div class="container">
+            <div class="about-content">
+                <div class="about-text slide-in-left">
+                    <h2>About Me</h2>
+                    <p>
+                        With 5+ years of experience in web development, I specialize in creating 
+                        scalable applications using modern technologies. My passion lies in 
+                        transforming complex problems into elegant, user-friendly solutions.
+                    </p>
+                    <p>
+                        I believe in continuous learning and staying up-to-date with the latest 
+                        industry trends. When I'm not coding, you'll find me exploring new 
+                        design patterns, contributing to open source, or mentoring aspiring developers.
+                    </p>
+                    <div class="skills">
+                        <div class="skill-card fade-in">
+                            <div class="skill-icon">⚛️</div>
+                            <h4>React</h4>
+                        </div>
+                        <div class="skill-card fade-in">
+                            <div class="skill-icon">📱</div>
+                            <h4>React Native</h4>
+                        </div>
+                        <div class="skill-card fade-in">
+                            <div class="skill-icon">🟢</div>
+                            <h4>Node.js</h4>
+                        </div>
+                        <div class="skill-card fade-in">
+                            <div class="skill-icon">🎨</div>
+                            <h4>UI/UX</h4>
+                        </div>
+                        <div class="skill-card fade-in">
+                            <div class="skill-icon">☁️</div>
+                            <h4>AWS</h4>
+                        </div>
+                        <div class="skill-card fade-in">
+                            <div class="skill-icon">🐳</div>
+                            <h4>Docker</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-image slide-in-right">
+                    <i data-lucide="user"></i>
+                </div>
+            </div>
+        </div>
     </section>
   )
 }

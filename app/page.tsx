@@ -42,6 +42,7 @@ export default function Page() {
                 <i data-lucide="chevron-down"></i>
             </div>
         </div>
+      
       <div class="container">
             <div class="about-content">
                 <div class="about-text slide-in-left">
